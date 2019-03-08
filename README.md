@@ -23,11 +23,11 @@ All this data are available online, therefore the examples are only given to sho
  
 ## CDNSim uses Python2 and some libraries
 
-###Create Virtualenv
+### Create Virtualenv
 
 virtualenv2 -p path/to/python2.7 .env
 
-###Activate virtualenv
+### Activate virtualenv
 
 source ./env/bin/activate
 
