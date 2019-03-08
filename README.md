@@ -23,6 +23,14 @@ All this data are available online, therefore the examples are only given to sho
  
 ## CDNSim uses Python2 and some libraries
 
+###Create Virtualenv
+
+virtualenv2 -p path/to/python2.7 .env
+
+###Activate virtualenv
+
+source ./env/bin/activate
+
 ### py2-ipaddress:
 
 *Python 2.7 backport* of 3.3's ipaddress module.
@@ -40,8 +48,9 @@ or on Ubuntu/Debian: sudo apt-get install python-subnettree
 or visit: https://pypi.python.org/pypi/pysubnettree/
 
 ### NetworkX:
+*Works on version 1.9.1*
 
-pip install networkx
+pip install networkx=1.9.1
 
 or on Ubuntu/Debian: sudo apt-get install python-networkx
 
